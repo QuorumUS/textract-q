@@ -6,10 +6,10 @@ requires = ["poetry-core"]
 authors = ["Dean Malmgren <dean.malmgren@datascopeanalytics.com>"]
 description = "Minimally maintained fork of deanmalmgren/textract to replace '*' dependencies "
 license = "MIT"
-name = "textract-py3"
+name = "textract-q"
 packages = [{include = "textract"}]
 readme = "README.md"
-repository = "https://github.com/KyleKing/textract-py3"
+repository = "https://github.com/QuorumUS/textract-q"
 version = "2.2.0"
 
 [tool.poetry.dependencies]
