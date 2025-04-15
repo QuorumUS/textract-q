@@ -42,7 +42,7 @@ dependencies, dependency_links = parse_requirements(requirements_filename)
 
 setup(
     name=textract.__name__,
-    version="1.6.5",
+    version="2.0.0",
     description="extract text from any document. no muss. no fuss.",
     long_description=long_description,
     url=github_url,
@@ -57,7 +57,7 @@ setup(
     ],
     install_requires=dependencies,
     extras_require={
-        "pocketsphinx": ["pocketsphinx==0.1.15"]
+        "pocketsphinx": ["pocketsphinx>=0.1.15"]
     },
     dependency_links=dependency_links,
     zip_safe=False,
