@@ -56,7 +56,7 @@ def get_parser():
     # define the command line options here
     parser.add_argument(
         'filename', help='Filename to extract text.',
-    ).completer = argcomplete.completers.FilesCompleter
+    ).completer = argcomplete.completers.FilesCompleter()
     parser.add_argument(
         '-e', '--encoding', type=str, default=DEFAULT_ENCODING,
         choices=_get_available_encodings(),
